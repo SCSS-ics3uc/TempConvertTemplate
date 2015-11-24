@@ -22,8 +22,8 @@ namespace TempConvertTemplate
 
         private void convertButton_Click(object sender, EventArgs e)
         {
-            // temp holds the value inputted by the user
-            double temp;
+            double temp; // holds value inputted by the user
+
             temp = Convert.ToDouble(tempInput.Text);
 
             /// checks to see that conversion option has been selected and runs 
